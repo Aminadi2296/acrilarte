@@ -2,6 +2,7 @@
 
 import LogoCarousel from "@/components/LogoCarousel";
 import HeroBackground from "@/components/HeroBackground";
+import ProductsSection from "@/components/ProductsSection";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -56,8 +57,7 @@ export default function Home() {
 
       <LogoCarousel />
 
-      <section className="h-screen bg-white">
-      </section>
+      <ProductsSection />
     </main>
   );
 }
